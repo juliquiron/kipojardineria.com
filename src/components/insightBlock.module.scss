@@ -3,22 +3,38 @@
   background-repeat: no-repeat;
   background-position: 50% 0;
   background-size: 150px;
-  color: white;
+  color: #4A4945;
   display: block;
   text-align: center;
   padding: 150px 1em 0;
 }
 
+h3 {
+  font-family: 'Minion Pro Bold';
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  margin-bottom: 0;
+}
+p {
+  font-family: 'Minion Pro Italic';
+  font-size: 15px;
+  line-height: 20px;
+  width: 60%;
+  display: inline-block;
+}
+
 
 /** Mapping images */
-.team {
-  //background-image: url('./team.svg');
+.xero{
+  background-image: url('./xero.png');
 }
-
-.support {
-  //background-image: url('./support.svg');
+.ciru{
+  background-image: url('./ciru.png');
 }
-
-.virtual {
-  //background-image: url('./virtual.svg');
+.riego{
+  background-image: url('./riego.png');
+}
+.rest{
+  background-image: url('./rest.png');
 }

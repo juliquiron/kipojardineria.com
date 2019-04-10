@@ -12,32 +12,32 @@ const Insights = () => (
     <Row>
       <Col>
         <InsightBlock
-          name='test'
-          title='test title'
-          text='test text section'
+          name='xero'
+          title='Xerojardinería'
+          text='Jardineria autosuficiente, optimizamos al máximo todos los recursos, en especial el agua.'
         />
       </Col>
       <Col>
         <InsightBlock
-          name='test'
-          title='test title'
-          text='test text section'
+          name='ciru'
+          title='Cirugía arborea'
+          text='Aumentamos el proceso de cicatrización y mejoramos la salud del arbol'
         />
       </Col>
     </Row>
     <Row>
       <Col>
         <InsightBlock
-          name='test'
-          title='test title'
-          text='test text section'
+          name='riego'
+          title='Sistemas de riego'
+          text='Instalación y mantenimiento de sistemas de riego eficientes.'
         />
       </Col>
       <Col>
         <InsightBlock
-          name='test'
-          title='test title'
-          text='test text section'
+          name='rest'
+          title='Restauración de jardines'
+          text='Diseño y construcción de terrazas patios y jardines, creación de espacios para los mas pequeños'
         />
       </Col>
     </Row>

@@ -622,6 +622,21 @@ pre tt:after {
 }
 
 footer {
+  background-color: #4A4945;
   text-align: center;
-  background-color: darkgrey;
+  text-align: center;
+  padding: 2em 0;
+}
+footer a {
+  display: inline-block;
+  color: white;
+  font-family: 'Minion Pro Italic';
+  font-size: 18px;
+  text-align: center;
+  width: 10%;
+  min-width: 150px;
+}
+footer a:hover {
+  color: white;
+  text-decoration: none;
 }

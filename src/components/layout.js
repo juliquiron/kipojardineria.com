@@ -10,6 +10,7 @@ import PropTypes from "prop-types"
 import { StaticQuery, graphql } from "gatsby"
 
 import Header from "./header"
+import ImageFooter from './imageFooter'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import "./layout.css"
 
@@ -35,7 +36,7 @@ const Layout = ({ children }) => (
         >
           <main>{children}</main>
           <footer>
-            <img src="https://http.cat/500" alt="Footer logo" />
+            <a href="http://kipojardineria.com" alt="Kipo jardineria"><ImageFooter/ ><div>kipojardineria.com</div></a>
           </footer>
         </div>
       </>

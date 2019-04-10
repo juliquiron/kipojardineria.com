@@ -1,21 +1,33 @@
 import { Link } from "gatsby"
+import { StaticQuery, graphql } from "gatsby"
 import PropTypes from "prop-types"
 import React from "react"
+import Img from "gatsby-image"
+
+import style from './header.module.scss'
+
+const Image = () => (
+  <StaticQuery
+   query = {graphql`
+      query {
+        logo: file(relativePath: { eq: "header_logo.png" }) {
+          childImageSharp {
+            # Specify the image processing specifications right in the query.
+            # Makes it trivial to update as your page's design changes.
+            fluid(maxWidth: 300) {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
+      }
+    `}
+    render={data => <Img fluid={data.logo.childImageSharp.fluid} alt="Kipo jardineria logo cabezera" />}
+  />
+  )
 
 const Header = ({ siteTitle, siteDescription }) => (
-  <header
-    style={{
-      padding: `1.45rem 0`,
-    }}
-  >
-    <div
-      style={{
-        margin: `0 auto`,
-        maxWidth: 960,
-        padding: `1.45rem 1.0875rem`,
-      }}
-    >
-      <h1 style={{ margin: 0 }}>
+  <header className={style.wrapper}>
+      <h1 className={style.title}>
         <Link
           to="/"
           style={{
@@ -23,11 +35,10 @@ const Header = ({ siteTitle, siteDescription }) => (
             textDecoration: `none`,
           }}
         >
-        <img src="https://http.cat/429" alt="{siteTitle}" />
+  <Image/>
         </Link>
       </h1>
-      <h2>{siteDescription}</h2>
-    </div>
+      <h2 className={style.subtitle}>{siteDescription}</h2>
   </header>
 )
 

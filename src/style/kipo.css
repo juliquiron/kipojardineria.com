@@ -1,0 +1,37 @@
+/** Fonts import **/
+@font-face {
+  font-family: 'Minion Pro Italic';
+  src: url('../typo/MinionPro-It.otf');
+}
+@font-face {
+  font-family: 'Minion Pro Bold';
+  src: url('../typo/MinionPro-Bold.otf');
+}
+@font-face {
+  font-family: 'Minion Pro Medium';
+  src: url('../typo/MinionPro-Medium.otf');
+}
+@font-face {
+  font-family: 'Minion Pro Semibold';
+  src: url('../typo/MinionPro-Semibold.otf');
+}
+@font-face {
+  font-family: 'Futura';
+  src: url('../typo/Futura-Medium-01.ttf');
+}
+
+/** contact vcard formats **/
+.name {
+  font-family: 'Minion Pro Medium';
+}
+.title {
+  font-family: 'Minion Pro Semibold';
+}
+.location,
+.email,
+.phone {
+  font-family: 'Minion Pro Italic';
+}
+.location {
+  padding-top: 1em;
+}
