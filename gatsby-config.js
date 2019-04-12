@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
-    title: `Kipo jardineria sostenible`,
-    description: `Kipo es una empresa de jardineria sostenible que ofrece todo lo que necesitas para tu jardin, terraza y patio.`,
+    title: `Kipo jardinería sostenible`,
+    description: `Kipo es una empresa de jardinería sostenible que ofrece todo lo que necesitas para tu jardín, terraza y patio.`,
     author: `Eva hilla studio | Julià Mestieri`,
   },
   plugins: [

@@ -5,7 +5,7 @@ const Contact = () => (
   <section className={style.wrapper}>
     <h3 className={style.title}>Contacto</h3>
     <div class="vcard">
-      <div class="name">Jorge Andres Suarez</div>
+      <div class="name">Jorge Andrés Suárez</div>
       <div class="title">Técnico Jardinero</div>
       <div class="location">Sant Cugat del Vallès</div>
       <a href="mailto:jorge@kipojardineria.com" class="email">jorge@kipojardineria.com</a>

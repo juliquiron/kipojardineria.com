@@ -7,20 +7,20 @@ import style from './insights.module.scss'
 
 const Insights = () => (
   <section className={style.wrapper}>
-  <h2 className={style.title}>Nuestros servicions</h2>
+  <h2 className={style.title}>Nuestros servicios</h2>
   <Container>
     <Row>
       <Col>
         <InsightBlock
           name='xero'
           title='Xerojardinería'
-          text='Jardineria autosuficiente, optimizamos al máximo todos los recursos, en especial el agua.'
+          text='Jardinería autosuficiente, optimizamos al máximo todos los recursos, en especial el agua.'
         />
       </Col>
       <Col>
         <InsightBlock
           name='ciru'
-          title='Cirugía arborea'
+          title='Cirugía arbórea'
           text='Aumentamos el proceso de cicatrización y mejoramos la salud del arbol'
         />
       </Col>
@@ -37,7 +37,7 @@ const Insights = () => (
         <InsightBlock
           name='rest'
           title='Restauración de jardines'
-          text='Diseño y construcción de terrazas patios y jardines, creación de espacios para los mas pequeños'
+          text='Diseño y construcción de terrazas patios y jardines, creación de espacios para los más pequeños'
         />
       </Col>
     </Row>
